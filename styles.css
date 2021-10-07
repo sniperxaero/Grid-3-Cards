@@ -1,0 +1,120 @@
+b {
+    margin: 10rem;
+    padding:0;
+}
+
+#main {
+    
+    width: 100vh;
+    margin-left: 0;
+}
+#main2 {
+    font-size: 15px;
+    font-family:'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 0;
+    
+ }
+
+
+#Csedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+#Csuv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#Cluxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h3 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family:'Big Shoulders Display', cursive;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+    font-weight: 700;
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%);
+    font-weight: 700;
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+    font-weight: 700;
+}
+
+@media screen and (min-width: 100px){
+    #main2{
+        width: 375px;
+        margin-left: 15rem;
+
+}
+
+@media screen and (min-width: 100px){
+    #Cluxury{
+       border-radius: 0 0 10px 10px;
+
+}
+
+@media screen and (min-width: 100px){
+    #Csedan{
+       border-radius: 10px 10px 0 0;
+
+}
+
+@media screen and (min-width: 1025px){
+    #main2{
+        width: 1440px;
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    #main2{
+        width: 1100px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #Csedan{
+       border-radius: 10px 0 0px 10px;
+
+}
+
+@media screen and (min-width: 1025px){
+    #Cluxury{
+       border-radius: 0 10px 10px 0;
+
+}
+
+@media screen and (min-width: 1081px){
+    #main2{
+        width: 1100px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #main2{
+        width: 1100px;
+        height: 600px;
+    }
+}
